@@ -228,6 +228,7 @@ RCT_EXPORT_METHOD(handleDetailsUpdate: (NSDictionary *)details
         [supportedNetworksMapping setObject:PKPaymentNetworkAmex forKey:@"amex"];
         [supportedNetworksMapping setObject:PKPaymentNetworkMasterCard forKey:@"mastercard"];
         [supportedNetworksMapping setObject:PKPaymentNetworkVisa forKey:@"visa"];
+        [supportedNetworksMapping setObject:PKPaymentNetworkMada forKey:@"mada"];
     }
     
     if (iOSVersion >= 9) {
